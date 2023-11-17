@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(10, 10, 10);
+}
+.header{
+    width: 100%;
+ 
+
+
+}.header{
+    background-image: url(./Imagenes/COB\ LOGO.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-bottom: 200px;
+
+
+}
+.header li{ font-size: 20px;
+          color: aliceblue  ;
+    padding: 10px;
+    }
+ol{
+        width: 500px;
+    display: flex;
+    flex-direction: row;
+     list-style: none; /*con este me saca los numeritos de la lista */
+    justify-content: flex-start;
+    }
+
+.discografia{
+    display: flex;
+gap: 30px;
+flex-flow: row wrap;
+}
+
+.discografia img{
+width: 300px;
+height: 300px;
+
+}
+
